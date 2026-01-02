@@ -1,2 +1,2 @@
 # Profile-Card-UI
-Profile Card component built using HTML and CSS.
+Clean and Responsive Profile Card component built using HTML and CSS.
