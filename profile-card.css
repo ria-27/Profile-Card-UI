@@ -1,0 +1,139 @@
+body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                height: 100%;
+            }
+            .card{
+                height: 450px;
+                border-radius: 20px;
+                background-color: rgb(245, 244, 242);
+                width: 400px;
+                box-shadow: 5px 5px 5px gainsboro;
+                transition: box-shadow 0.3s;
+            }
+            .card:hover{
+                box-shadow: 10px 10px 10px grey;
+                transform: translateY(-6px);
+            }
+            .top-section{
+                position: relative;
+                background-color: rgb(6, 6, 8);
+                height: 130px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            .pic{
+                position: absolute;
+                width: 120px;
+                height: 120px;
+                object-fit: cover;
+                border-radius: 80px;
+                top: 40px;
+                left: 132px;
+                border: 3.5px solid rgb(6,6,8);
+            }
+            .Name{
+                font-size: 26px;
+                text-align: center;
+                margin-top: 43px;
+            }
+            .Profession{
+                font-size: 18px;
+                margin-top: 6px;
+                text-align: center;
+            }
+            .social-media{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                column-gap: 24px;
+                align-items: center;
+            }
+            .facebook{
+                width: 20px;
+                margin-top: 20px;
+                align-items: center;
+            }
+            .twitter{
+                width: 20px;
+                border-radius: 10px;
+                margin-top: 20px;
+                align-items: center;
+            }
+            .insta{
+                width: 20px;
+                border-radius: 8px;
+                margin-top: 20px;
+                align-items: center;
+            }
+            .disc{
+                margin-left: -1px;
+                border-radius: 20px;
+                width: 22px;
+                margin-top: 20px;
+                align-items: center;
+            }
+            .facebook:hover, .insta:hover, .twitter:hover, .disc:hover{
+                transform: scale(1.03);
+                cursor: pointer;
+                filter: brightness(0.9);
+            }
+            .buttons{
+                display: flex;
+                justify-content: center;
+                gap: 16px;
+                margin-top: 20px;
+            }
+            .subscribe{
+                background-color: rgb(51, 120, 199);
+                color: white;
+                border: none;
+                border-radius: 16px;
+                padding: 4px 10px;
+                cursor: pointer;
+            }
+            .subscribe:hover{
+                background-color: rgb(37, 89, 148);
+                transform: scale(1.03);
+            }
+            .message{
+                background-color: rgb(51, 120, 199);
+                color: white;
+                border: none;
+                border-radius: 16px;
+                padding: 4px 10px;
+                cursor: pointer;
+            }
+            .message:hover{
+                background-color: rgb(37, 89, 148);
+                transform: scale(1.03);
+            }
+            .lower-part{
+                display: flex;
+                justify-content: center;
+                gap: 16px;
+                margin-top: 30px;
+                opacity: 0.75;
+            }
+            .icon{
+                width: 20px;
+                cursor: pointer;
+            }
+            .number{
+                vertical-align: 30%;
+            }
+            .likes{
+                padding: 0 20px;
+                border-right: 1px solid black;
+            }
+            .comments{
+                margin-left: -10px;
+                padding: 0 20px;
+                border-right: 1px solid black;
+            }
+            .forwards{
+                margin-left: -10px;
+                padding: 0 20px;
+            }
