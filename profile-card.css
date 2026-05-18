@@ -4,6 +4,19 @@ body{
                 align-items: center;
                 min-height: 100vh;
                 height: 100%;
+                position: relative;
+                background-color: #f8f4ee;
+            }
+            body::before{
+                content: "";
+                position: absolute;
+                width: 350px;
+                height: 350px;
+                border-radius: 50%;
+                background-color:rgba(255,255,255,0.25);;
+                top: -120px;
+                left: -120px;
+                filter: blur(10px);
             }
             .card{
                 height: 450px;
@@ -136,4 +149,195 @@ body{
             .forwards{
                 margin-left: -10px;
                 padding: 0 20px;
+            }
+            .pattern{
+                position: fixed;
+                font-size: 28px;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                pointer-events: none;
+                color: #dcd3c6;
+            }
+            .p1{
+                position:absolute;
+                user-select:none;
+                top:6%;
+                left:6%;
+            }
+            .p2{ 
+                position:absolute;
+                user-select:none;
+                top:8%;
+                right:8%;
+            }
+            .p3{ 
+                position:absolute;
+                user-select:none;
+                top:18%;
+                left:14%;
+            }
+            .p4{ 
+                position:absolute;
+                user-select:none;
+                top:16%;
+                right:18%;
+            }
+            .p5{ 
+                position:absolute;
+                user-select:none;
+                top:30%;
+                left:5%;
+            }
+            .p6{ 
+                position:absolute;
+                user-select:none;
+                top:28%;
+                right:10%;
+            }
+            .p7{ 
+                position:absolute;
+                user-select:none;
+                top:42%;
+                left:10%;
+            }
+            .p8{ 
+                position:absolute;
+                user-select:none;
+                top:48%;
+                right:8%;
+            }
+            .p9{ 
+                position:absolute;
+                user-select:none;
+                top:62%;
+                left:7%;
+            }
+            .p10{ 
+                position:absolute;
+                user-select:none;
+                top:70%;
+                right:12%;
+            }
+            .p11{ 
+                position:absolute;
+                user-select:none;
+                top:84%;
+                left:12%;
+            }
+            .p12{ 
+                position:absolute;
+                user-select:none;
+                top:82%;
+                right:18%;
+            }
+            .p13{ 
+                position:absolute;
+                user-select:none;
+                top:5%;
+                left:32%;
+            }
+            .p14{ 
+                position:absolute;
+                user-select:none;
+                top:12%;
+                right:32%;
+            }
+            .p15{ 
+                position:absolute;
+                user-select:none;
+                top:24%;
+                left:72%;
+            }
+            .p16{ 
+                position:absolute;
+                user-select:none;
+                top:26%;
+                right:72%;
+            }
+            .p17{ 
+                position:absolute;
+                user-select:none;
+                top:38%;
+                left:82%;
+            }
+            .p18{ 
+                position:absolute;
+                user-select:none;
+                top:44%;
+                right:78%;
+            }
+            .p19{ 
+                position:absolute;
+                user-select:none;
+                top:56%;
+                left:84%;
+            }
+            .p20{ 
+                position:absolute;
+                user-select:none;
+                top:64%;
+                right:82%;
+            }
+            .p21{ 
+                position:absolute;
+                user-select:none;
+                top:74%;
+                left:74%;
+            }
+            .p22{ 
+                position:absolute;
+                user-select:none;
+                top:78%;
+                right:58%;
+            }
+            .p23{ 
+                position:absolute;
+                user-select:none;
+                top:88%;
+                left:44%;
+            }
+            .p24{ 
+                position:absolute;
+                user-select:none;
+                top:10%;
+                left:48%;
+            }
+            .p25{ 
+                position:absolute;
+                user-select:none;
+                top:90%;
+                right:26%;
+            }
+            .p26{ 
+                position:absolute;
+                user-select:none;
+                top:46%;
+                left:90%;
+            }
+            .p27{ 
+                position:absolute;
+                user-select:none;
+                top:58%;
+                right:90%;
+            }
+            .p28{ 
+                position:absolute;
+                user-select:none;
+                top:20%;
+                left:88%;
+            }
+            .p29{ 
+                position:absolute;
+                user-select:none;
+                top:68%;
+                left:24%;
+            }
+            .p30{ 
+                position:absolute;
+                user-select:none;
+                top:50%;
+                right:24%;
             }
